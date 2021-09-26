@@ -1,9 +1,8 @@
 import org.junit.jupiter.api.Test;
 
-public class Main {
+class Main {
     @Test
     void test(){
-
     }
 }
 

@@ -3,7 +3,7 @@ package src.pojo;
 public class TimeSlot {
     private int startTime;
     private int endTime;
-    private String assignee;
+    private Parent assignee;
     private int ordinal;
 
 
@@ -29,19 +29,19 @@ public class TimeSlot {
         this.endTime = endTime;
     }
 
-    public String getAssignee() {
-        return assignee;
-    }
-
-    public void setAssignee(String assignee) {
-        this.assignee = assignee;
-    }
-
     public int getOrdinal() {
         return ordinal;
     }
 
     public void setOrdinal(int ordinal) {
         this.ordinal = ordinal;
+    }
+
+    public Parent getAssignee() {
+        return assignee;
+    }
+
+    public void setAssignee(Parent assignee) {
+        this.assignee = assignee;
     }
 }
